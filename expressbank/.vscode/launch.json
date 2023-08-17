@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteReferencia",
+            "request": "launch",
+            "mainClass": "TesteReferencia",
+            "projectName": "expressbank_9226b96c"
+        },
+        {
+            "type": "java",
+            "name": "TesteReferencias",
+            "request": "launch",
+            "mainClass": "TesteReferencias",
+            "projectName": "expressbank_9226b96c"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
