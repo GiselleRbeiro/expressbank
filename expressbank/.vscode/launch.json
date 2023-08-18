@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestaMetodo",
+            "request": "launch",
+            "mainClass": "TestaMetodo",
+            "projectName": "expressbank_9226b96c"
+        },
+        {
+            "type": "java",
             "name": "TesteReferencia",
             "request": "launch",
             "mainClass": "TesteReferencia",
