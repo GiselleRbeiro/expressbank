@@ -1,22 +1,20 @@
-public class criaConta {
-    
+public class CriaConta {
+
     public static void main(String[] args) {
-        Conta primeirConta = new Conta();
-        primeirConta. saldo = 200;
-        System.out.println(primeirConta);
+        Conta primeiraConta = new Conta();
+        primeiraConta.saldo = 200;
+        System.out.println(primeiraConta.saldo);
 
-        primeirConta.saldo += 100;
-        System.out.println(primeirConta);
+        primeiraConta.saldo += 100;
+        System.out.println(primeiraConta.saldo);
 
-        Conta segundConta= new Conta();
-        segundConta.saldo = 50;
+        Conta segundaConta = new Conta();
+        segundaConta.saldo = 50;
 
-        System.out.println("Primeira conta tem "+ primeirConta);
-        System.out.println("Segunda conta tem " + segundConta);
+        System.out.println("primeira conta tem " + primeiraConta.saldo);
+        System.out.println("segunda conta tem " + segundaConta.saldo);
 
-        System.out.println("referenciar: " + primeirConta);
-
-
+        System.out.println("referenciar: " + primeiraConta);
     }
-}
 
+}
