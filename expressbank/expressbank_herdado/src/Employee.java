@@ -4,9 +4,8 @@ public class Employee {
     private String nome;
     private String cpf;
     private double salario;
-
- 
-    public double getbenefit() {
+   
+     public double getbenefit() {
         return this.salario * 0.1;
 
     }
