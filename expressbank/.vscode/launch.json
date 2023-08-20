@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteSacaNeagivo",
+            "request": "launch",
+            "mainClass": "TesteSacaNeagivo",
+            "projectName": "expressbank_9226b96c"
+        },
+        {
+            "type": "java",
+            "name": "TestaBanco",
+            "request": "launch",
+            "mainClass": "TestaBanco",
+            "projectName": "expressbank_9226b96c"
+        },
+        {
+            "type": "java",
             "name": "TestaMetodo",
             "request": "launch",
             "mainClass": "TestaMetodo",

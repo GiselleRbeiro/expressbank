@@ -1,6 +1,6 @@
 public class TestaMetodo {
 	public static void main(String[] args) {
-		Conta contaDojoao = new Conta();
+		Conta contaDojoao = new Conta(0, 0);
 		contaDojoao.depositar(100);
 		contaDojoao.depositar(50);
 		System.out.println(contaDojoao.getSaldo());
