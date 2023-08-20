@@ -8,7 +8,8 @@ public static void main(String[] args) {
     joao.setSalario(2590.80);
 
     System.out.println(joao.getCpf());
-     System.out.println(joao.getBonification());
+     System.out.println(joao.getbenefit());
+     
 }
     
 }

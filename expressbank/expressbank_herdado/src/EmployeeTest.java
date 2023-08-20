@@ -1,14 +1,28 @@
-
-public class Employee { 
+public class EmployeeTest { 
     
     private String nome;
     private String cpf;
     private double salario;
+    private int tipo = 0; //0 funcionário comum, 1 Gerente, 2 Diretor
 
- 
+   
     public double getbenefit() {
-        return this.salario * 0.1;
-
+        
+        if(this.tipo == 0) {//0 funcionário comum
+            return this.salario * 0.1;
+        }else if (this.tipo == 1) { // gerente
+             return this.salario; 
+        } else { // diretor
+            return this.salario + 1.000;
+        }
+ 
+    }
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+        
+    public int getTipo(){
+        return tipo;
     }
 
     public String getNome() {
@@ -30,7 +44,4 @@ public class Employee {
         this.salario = salario;
     }
    
-    
-
-
-}
+ }
