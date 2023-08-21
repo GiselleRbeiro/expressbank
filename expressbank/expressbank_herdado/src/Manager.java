@@ -15,6 +15,7 @@ public class Manager extends Employee {
     }
    
      public double getbenefit() {
+        System.out.println("Chamando a bonificação do GERENTE");
         return super.getbenefit() + super.getSalario();
 
     }
