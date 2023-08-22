@@ -1,6 +1,6 @@
 public class Conta<Cliente> {
 
-	private double saldo;
+	double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular;
@@ -23,7 +23,7 @@ public class Conta<Cliente> {
 		this.saldo = this.saldo + valor;
 	}
 
-	public boolean saca(double valor) {
+	public boolean sacar(double valor) {
 		if (this.saldo >= valor) {
 			this.saldo -= valor;
 			return true;
