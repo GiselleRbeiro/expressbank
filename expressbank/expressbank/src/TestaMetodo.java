@@ -9,7 +9,7 @@ public class TestaMetodo {
 		System.out.println(contaDojoao.getSaldo());
 		System.out.println(conseguiuRetirar);
 
-		Conta contaDaMarcela = new Conta();
+		Conta contaDaMarcela = new Conta(0, 0);
 		contaDaMarcela.depositar(1000);
 
 		boolean sucessoTransferencia = contaDaMarcela.transferir(300, contaDojoao);
