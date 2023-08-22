@@ -8,11 +8,11 @@ public class Conta {
 
     public Conta(int agencia, int numero){
         Conta.total++;
-        System.out.println("O total de contas é " + Conta.total);
+      //  System.out.println("O total de contas é " + Conta.total);
         this.agencia = agencia;
         this.numero = numero;
         this.saldo = 100;
-        System.out.println("Estou criando uma conta " + this.numero);
+       // System.out.println("Estou criando uma conta " + this.numero);
     }
 
     public void depositar(double valor) {
@@ -47,7 +47,7 @@ public class Conta {
 
     public void setNumero(int numero){
         if(numero <= 0) {
-            System.out.println("Nao pode valor menor igual a 0");
+        System.out.println("Nao pode valor menor igual a 0");
             return;
         }
         this.numero = numero;
