@@ -6,7 +6,7 @@ public class TestReference {
         m1.setNome("Marcos");
         m1.setSalario((5000.0));
 
-        Employee e = new Employee();
+        Employee e = new Engineer();
         e.setSalario(2000.0);
 
         Engineer en = new  Engineer();
