@@ -1,6 +1,6 @@
 public class TestaContaSemCliente {
 	public static void main(String[] args) {
-		Conta contaDaMarcela = new Conta(0, 0);
+		Conta contaDaMarcela = new ContaPoupanca(0, 0);
 		System.out.println(contaDaMarcela.getSaldo());
 
 		contaDaMarcela.setTitular(new Cliente());

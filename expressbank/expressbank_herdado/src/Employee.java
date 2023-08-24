@@ -5,9 +5,7 @@ public abstract class Employee {
     private String cpf;
     private double salario;
    
-        public double getbenefit() {
-        return this.salario * 0.1;
-        }
+    public abstract double getbenefit();
 
     public String getNome() {
         return nome;
