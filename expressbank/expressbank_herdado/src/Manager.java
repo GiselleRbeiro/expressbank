@@ -1,5 +1,5 @@
 //Manager é uma extensao de  Employee
-public class Manager extends Employee { 
+public class Manager extends FuncionarioAutenticavel { 
   
     private int senha;
 

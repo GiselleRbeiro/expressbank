@@ -2,13 +2,13 @@ public class SistemaInterno {
 
     private int senha = 2222;
 
-    public void autenticar(Manager m) {
-        boolean autenticou = m.autentica(this.senha);
+    public void autenticar(FuncionarioAutenticavel fa) {
+        boolean autenticou = fa.autenticar(this.senha);
         if (autenticou) {
             System.out.println("Sistema Libeado!");
 
         } else {
-            System.out.println("O sitema requer um login!");
+            System.out.println("O sistema requer um login!");
         }
      }
 
