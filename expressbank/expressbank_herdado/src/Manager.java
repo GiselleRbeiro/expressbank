@@ -1,27 +1,26 @@
 //Manager é uma extensao de  Employee
 public class Manager extends Employee implements FuncionarioAutenticavel { 
   
-    private int senha;
+    private AutenticadorMaster autenticador;
 
-    public void setSenha(int senha) {
-        this.senha = senha;
+    public Manager() {
+        this.autenticador = new AutenticadorMaster();
     }
-    public boolean autentica(int senha){
-        if(this.senha == senha){
-            return true;
-        } else { 
-            return false;
-        }
-    }
-   
-     public double getbenefit() {
+    
+    public double getbenefit() {
         System.out.println("Chamando a bonificação do GERENTE");
         return super.getSalario();
+    }
 
-    }
     @Override
-    public boolean autenticar(int senha) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'autenticar'");
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+			}
+
+	@Override
+	public boolean autenticar(int senha) {
+		return this.autenticador.autenticar(senha);
+    
     }
+
 }

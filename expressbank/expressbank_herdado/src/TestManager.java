@@ -16,7 +16,7 @@ public class TestManager {
         System.out.println(m1.getSalario());
         
         m1.setSenha(2222);
-        boolean autenticou = m1.autentica(2222);
+        boolean autenticou = m1.autenticar(2222);
 
         System.out.println(autenticou);
 

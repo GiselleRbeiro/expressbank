@@ -1,18 +1,20 @@
 public class Cliente implements FuncionarioAutenticavel {
 
-	private int senha;
+	
+	private AutenticadorMaster autenticador;
+
+	public Cliente() {
+		this.autenticador = new AutenticadorMaster();
+	}
 
 	@Override
 	public void setSenha(int senha) {
-
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Unimplemented method 'setSenha'");
-	}
+		this.autenticador.setSenha(senha);
+			}
 
 	@Override
 	public boolean autenticar(int senha) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Unimplemented method 'autenticar'");
+		return this.autenticador.autenticar(senha);
 	}
-
+	
 }
