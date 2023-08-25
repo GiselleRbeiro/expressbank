@@ -1,17 +1,9 @@
-public abstract class FuncionarioAutenticavel  extends Employee {
+//contrato Autenticavel
 
-    private int senha;
+public abstract interface FuncionarioAutenticavel  {
 
-    public void setSenha(int senha) {
-        this.senha = senha;
-
-    }
-    public boolean autenticar(int senha) {
-        if(this.senha == senha) {
-            return true;
-        }
-        return false;
-
-    }
-
+    public abstract void setSenha(int senha);
+          
+    public abstract boolean autenticar(int senha);
+    
 }

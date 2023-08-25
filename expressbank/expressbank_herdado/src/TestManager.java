@@ -2,6 +2,10 @@ public class TestManager {
 
     public static void main(String[] args) {
         Manager m1 = new Manager();
+
+        FuncionarioAutenticavel manager = new Manager();
+
+
         m1.setNome("Marcos");
         m1.setCpf("123456789-12");
         m1.setSalario(5000.0); 

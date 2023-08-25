@@ -1,31 +1,18 @@
-public class Cliente {
+public class Cliente implements FuncionarioAutenticavel {
 
-	private String nome;
-	private String cpf;
-	private String profissao;
+	private int senha;
 
-	public String getNome() {
-		return nome;
+	@Override
+	public void setSenha(int senha) {
+
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'setSenha'");
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getCpf() {
-		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-
-	public String getProfissao() {
-		return profissao;
-	}
-
-	public void setProfissao(String profissao) {
-		this.profissao = profissao;
+	@Override
+	public boolean autenticar(int senha) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'autenticar'");
 	}
 
 }
