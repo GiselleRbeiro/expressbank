@@ -1,18 +1,27 @@
-## Getting Started
+## Expressbank
+ Esse projeto foi desenvolvido como estudo da linguagem Java com orientação a objeto, a partir da plataforma  Alura cursos.
+ É um projeto  similar, no qual busquei aprender e treinar os conhecimentos POO.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+ ### FUNCIONALIDADES
+ Seguindo a orientação fui elaborando vários projetos para simular cada parte de banco, bem como na progressão das aulas, a medida que os conceitos iam sendo apresentados, fui elaborando classes para aplicar o conhecimento.
 
-## Folder Structure
+ # CONTA #CRIA CONTA
+ Nesta classe está elaborado conceitos como: variáveis, condicionais e inserção de métodos.
 
-The workspace contains two folders by default, where:
+ # CLIENTE
+Classe mãe, com métodos encapsulados necessários que serão herdados por outras classes filhas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# FUNCIONÁRIO, ENGENHEIRO, GERENTE
+São classes criadas para abrigar os tipos de funcionários, sendo funcionário classe mãe, e as demais "extends" a esta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# CONTROLE DE BENEFÍCIOS
+classe elaborada para guardas regras a serem seguidas de acordo com cada tipo de funcionário.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# SISTEMA, ADMINISTRADOR
+Guardam herança e interfaces, conceitos importantes para a POO.
 
-## Dependency Management
+# EXPRRESBANK HERDADO-CONTA, AUTENTICADORES
+Neste projetos é elaborado todo um sistema de autenticação a apartir dos conceitos: ENCAPSULAEMNTO, HERANÇA, POLIFORMISMO, INTERFACES, CONSTRURES, MÉTODOS E MÉTODOS ABSTRATOS.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# TESTES
+ Em quase todas as classes foi implementado uma classe teste, a fim de observar o comportamento de cada código. Estes testes foram rodados apenas pelo console.
