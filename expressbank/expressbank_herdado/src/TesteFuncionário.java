@@ -1,4 +1,4 @@
-public class TesteEmployee {
+public class TesteFuncionário {
 
 public static void main(String[] args) {
     

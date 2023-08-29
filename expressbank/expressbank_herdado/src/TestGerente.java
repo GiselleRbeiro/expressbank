@@ -1,9 +1,9 @@
-public class TestManager {
+public class TestGerente {
 
     public static void main(String[] args) {
         Gerente m1 = new Gerente();
 
-        FuncionarioAutenticavel manager = new Gerente();
+        FuncionarioAutenticavel gerente = new Gerente();
 
 
         m1.setNome("Marcos");

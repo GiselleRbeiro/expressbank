@@ -8,7 +8,7 @@ public class TesteSacaNeagivo {
 		conta.setAgencia(570);
 		System.out.println(conta.getAgencia());
 		
-		System.out.println("O total de contas é : " + conta.getTotal());
+		System.out.println("O total de contas é : " + Conta.getTotal());
 
 		conta.sacar(101);
 

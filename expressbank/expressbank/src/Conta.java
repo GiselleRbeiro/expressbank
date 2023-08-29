@@ -1,9 +1,10 @@
-public class Conta<Cliente> {
+public class Conta <Cliente>{
 
 	protected double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	
 	public Conta() {
 		this.titular = titular;
 	}
