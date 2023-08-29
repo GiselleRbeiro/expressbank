@@ -1,9 +1,9 @@
 public class TestManager {
 
     public static void main(String[] args) {
-        Manager m1 = new Manager();
+        Gerente m1 = new Gerente();
 
-        FuncionarioAutenticavel manager = new Manager();
+        FuncionarioAutenticavel manager = new Gerente();
 
 
         m1.setNome("Marcos");

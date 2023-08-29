@@ -1,4 +1,4 @@
-public abstract class Administrador extends Employee implements FuncionarioAutenticavel {
+public abstract class Administrador extends Funcionario implements FuncionarioAutenticavel {
 
     private AutenticadorMaster autenticador;
 

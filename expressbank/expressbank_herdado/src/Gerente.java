@@ -1,9 +1,9 @@
 //Manager é uma extensao de  Employee
-public class Manager extends Employee implements FuncionarioAutenticavel { 
+public class Gerente extends Funcionario implements FuncionarioAutenticavel { 
   
     private AutenticadorMaster autenticador;
 
-    public Manager() {
+    public Gerente() {
         this.autenticador = new AutenticadorMaster();
     }
     

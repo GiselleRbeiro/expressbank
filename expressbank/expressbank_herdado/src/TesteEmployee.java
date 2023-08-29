@@ -2,7 +2,7 @@ public class TesteEmployee {
 
 public static void main(String[] args) {
     
-     Manager joao = new Manager();
+     Gerente joao = new Gerente();
     joao.setNome("João Matheus");
     joao.setCpf("222.222.222.22");
     joao.setSalario(2600.00);

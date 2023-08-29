@@ -1,7 +1,7 @@
 public class TesteSistema {
     
     public static void main(String[] args) {
-        Manager m = new Manager();
+        Gerente m = new Gerente();
         m.setSenha(2222);
 
         Cliente cliente = new Cliente();
