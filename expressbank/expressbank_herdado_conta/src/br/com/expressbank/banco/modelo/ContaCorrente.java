@@ -1,3 +1,4 @@
+package br.com.expressbank.banco.modelo;
 public class ContaCorrente extends Conta implements Tributavel {
 
     public String getSaldo;

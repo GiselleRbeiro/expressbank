@@ -1,3 +1,5 @@
+import br.com.expressbank.banco.modelo.FuncionarioAutenticavel;
+
 public class SistemaInterno {
 
     private int senha = 2222;

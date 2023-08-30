@@ -1,3 +1,7 @@
+import modelo.Conta;
+import modelo.ContaCorrente;
+import modelo.ContaPoupanca;
+
 public class CriaConta {
 
     public static void main(String[] args) {

@@ -1,3 +1,8 @@
+package test;
+
+import br.com.expressbank.banco.modelo.ContaCorrente;
+import br.com.expressbank.banco.modelo.ContaPoupanca;
+
 public class TesteContas {
     
     public static void main(String[] args) {

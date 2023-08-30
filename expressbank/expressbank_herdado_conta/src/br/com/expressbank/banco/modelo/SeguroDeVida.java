@@ -1,3 +1,4 @@
+package br.com.expressbank.banco.modelo;
 public  class SeguroDeVida  implements Tributavel {
 
     @Override

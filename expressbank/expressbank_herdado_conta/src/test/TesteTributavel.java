@@ -1,3 +1,9 @@
+package test;
+
+import br.com.expressbank.banco.modelo.CalculaImposto;
+import br.com.expressbank.banco.modelo.ContaCorrente;
+import br.com.expressbank.banco.modelo.SeguroDeVida;
+
 public class TesteTributavel {
 
     public static void main(String[] args){

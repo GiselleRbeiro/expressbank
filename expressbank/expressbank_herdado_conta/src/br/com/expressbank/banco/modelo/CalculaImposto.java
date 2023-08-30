@@ -1,3 +1,5 @@
+package br.com.expressbank.banco.modelo;
+ 
 public class CalculaImposto {
     
     private double totalImposto;

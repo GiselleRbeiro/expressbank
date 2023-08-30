@@ -1,3 +1,7 @@
+import modelo.Conta;
+import modelo.ContaCorrente;
+import modelo.ContaPoupanca;
+
 public class TestaMetodo {
 	public static void main(String[] args) {
 		Conta contaDojoao = new ContaCorrente(0, 0);

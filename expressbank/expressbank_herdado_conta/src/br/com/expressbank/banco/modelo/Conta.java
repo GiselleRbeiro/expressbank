@@ -1,3 +1,4 @@
+package br.com.expressbank.banco.modelo;
 public abstract class Conta {
 
     double saldo;

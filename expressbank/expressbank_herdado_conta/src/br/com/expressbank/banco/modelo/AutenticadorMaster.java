@@ -1,3 +1,4 @@
+package br.com.expressbank.banco.modelo;
 public class AutenticadorMaster {
 
     private int senha;

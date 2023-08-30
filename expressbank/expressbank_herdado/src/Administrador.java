@@ -1,3 +1,6 @@
+import br.com.expressbank.banco.modelo.AutenticadorMaster;
+import br.com.expressbank.banco.modelo.FuncionarioAutenticavel;
+
 public abstract class Administrador extends Funcionario implements FuncionarioAutenticavel {
 
     private AutenticadorMaster autenticador;
