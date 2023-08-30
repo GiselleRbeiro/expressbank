@@ -6,13 +6,11 @@ public class TestGerente {
         Gerente m1 = new Gerente();
 
         FuncionarioAutenticavel gerente = new Gerente();
-
-
+        
         m1.setNome("Marcos");
         m1.setCpf("123456789-12");
         m1.setSalario(5000.0); 
-        
-
+                
         System.out.println(m1.getNome());
         System.out.println(m1.getCpf());
         System.out.println(m1.getSalario());
