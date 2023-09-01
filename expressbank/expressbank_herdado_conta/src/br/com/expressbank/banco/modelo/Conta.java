@@ -1,12 +1,34 @@
 package br.com.expressbank.banco.modelo;
+
+/**
+ * Classe que representa a moldura de uma conta
+ * 
+ * @author Giselle Ribeiro
+ * 
+ */
 public abstract class Conta {
 
-    double saldo;
+    protected double saldo;
     private int agencia;
     private int numero;
     Cliente titular;
     private static int total = 0;
-
+    private int agencia2;
+    
+    /**
+     * Construtor para inicializar o objeto Conta a partir da agencia e numero.
+     *  
+     * @param agencia
+     * @param numero
+     */
+   
+   
+    /**
+     * Valor precisa ser maior do que o saldo.
+     * 
+     * @param valor
+     * @throws SaldoInsuficienteException
+     */
     public Conta(int agencia, int numero){
         Conta.total++;
       //  System.out.println("O total de contas é " + Conta.total);
@@ -66,8 +88,8 @@ public abstract class Conta {
        this.agencia = agencia;
     }
 
-    public void setTitular(Cliente titular){
-        this.titular = titular;
+    public void setTitular(Cliente joao){
+        this.titular = joao;
     }
 
     public Cliente getTitular(){

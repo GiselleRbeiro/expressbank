@@ -1,5 +1,3 @@
-import br.com.expressbank.banco.modelo.FuncionarioAutenticavel;
-
 public class TestGerente {
 
     public static void main(String[] args) {

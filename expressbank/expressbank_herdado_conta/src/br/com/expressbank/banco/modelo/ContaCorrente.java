@@ -1,8 +1,10 @@
 package br.com.expressbank.banco.modelo;
+
+
 public class ContaCorrente extends Conta implements Tributavel {
 
-    public String getSaldo;
 
+    
     public ContaCorrente(int agencia, int numero) {
         super(agencia, numero);
 
@@ -23,4 +25,10 @@ public class ContaCorrente extends Conta implements Tributavel {
     public double getValorImposto(){
         return super.saldo * 0.01;
     }
+
+    @Override
+    public String toString() {
+        return "ContaCorrente , " + super.toString();
+    }
+  
     }

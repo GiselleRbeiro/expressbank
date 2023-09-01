@@ -1,6 +1,13 @@
 package br.com.expressbank.banco.modelo;
 
-public class Cliente {
+
+/**
+ * Classe que representa um cliente no Bytebank 
+ * 
+ * @author Giselle Ribeiro
+ * @version 0.1
+ */
+public class Cliente implements FuncionarioAutenticavel {
 
     private String nome;
     private String cpf;
@@ -23,6 +30,8 @@ public class Cliente {
     }
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+    }
+    public void setSenha(int i) {
     }
 
 }

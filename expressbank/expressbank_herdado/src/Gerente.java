@@ -1,8 +1,5 @@
 //Manager é uma extensao de  Employee
 
-import br.com.expressbank.banco.modelo.AutenticadorMaster;
-import br.com.expressbank.banco.modelo.FuncionarioAutenticavel;
-
 public class Gerente extends Funcionario implements FuncionarioAutenticavel { 
   
     private AutenticadorMaster autenticador;

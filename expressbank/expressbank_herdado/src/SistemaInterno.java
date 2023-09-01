@@ -1,4 +1,4 @@
-import br.com.expressbank.banco.modelo.FuncionarioAutenticavel;
+import br.com.expressbank.banco.modelo.Cliente;
 
 public class SistemaInterno {
 
@@ -13,5 +13,8 @@ public class SistemaInterno {
             System.out.println("O sistema requer um login!");
         }
      }
+
+    public void autenticar(Cliente cliente) {
+    }
 
 }
