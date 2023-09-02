@@ -1,4 +1,4 @@
-package br.com.expressbank.banco.modelo.teste;
+package br.com.expressbank.banco.teste;
 
 import br.com.expressbank.banco.modelo.Cliente;
 import br.com.expressbank.banco.modelo.ContaCorrente;

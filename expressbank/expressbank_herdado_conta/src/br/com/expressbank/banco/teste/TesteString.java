@@ -1,4 +1,4 @@
-package br.com.expressbank.banco.modelo.teste;
+package br.com.expressbank.banco.teste;
 
 public class TesteString {
 	public static void main(String[] args) {
