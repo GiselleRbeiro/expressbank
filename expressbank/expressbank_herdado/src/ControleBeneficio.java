@@ -1,4 +1,4 @@
-public class ControlBenefit {
+public class ControleBeneficio {
 
 private double soma;
 public char[] getSoma;

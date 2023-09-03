@@ -1,6 +1,6 @@
 package br.com.expressbank.banco.modelo;
 
-import br.com.expressbank.banco.modelo.teste.ContaCorrente;
+import br.com.expressbank.banco.modelo.ContaCorrente;
 
 public class CalculaImposto {
     
